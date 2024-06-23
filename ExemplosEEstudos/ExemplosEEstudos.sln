@@ -3,9 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35004.147
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ILogger", "ILogger", "{D72726B1-D625-430B-9D07-FCD75FA0A6D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ILoggerExemplo", "ILogger\ILogger\ILoggerExemplo.csproj", "{0EB6BE72-E8CE-4CE8-9830-3B2AF306480A}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EB6BE72-E8CE-4CE8-9830-3B2AF306480A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EB6BE72-E8CE-4CE8-9830-3B2AF306480A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EB6BE72-E8CE-4CE8-9830-3B2AF306480A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EB6BE72-E8CE-4CE8-9830-3B2AF306480A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0EB6BE72-E8CE-4CE8-9830-3B2AF306480A} = {D72726B1-D625-430B-9D07-FCD75FA0A6D4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EE03EDC5-BFEE-4AF0-B308-799C44C509E5}
