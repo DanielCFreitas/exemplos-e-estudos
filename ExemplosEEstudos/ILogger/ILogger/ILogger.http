@@ -1,0 +1,6 @@
+@ILogger_HostAddress = http://localhost:5001
+
+GET {{ILogger_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
